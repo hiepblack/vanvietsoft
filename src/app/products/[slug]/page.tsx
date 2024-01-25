@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Link from "next/link";
 
 const getOneProduct = async (slug: string) => {
-  const response = await fetch(`http://localhost:3000/api/products/${slug}`, {
+  const response = await fetch(`/api/products/${slug}`, {
     method: "GET",
   });
   const data = (await response.json()) || {};
