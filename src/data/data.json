@@ -1,0 +1,113 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Phần mềm Quản lý thư viện",
+            "content": "<div class=\"p-4 \">\n  <p class=\"text-[24px] font-normal text-[#16205F] text-justify  p-2\">\n    <b>Trong thời đại công nghệ thông tin bùng nổ</b>, việc ứng dụng\n    công nghệ thông tin vào công tác quản lý trong ngành giáo dục nói\n    chung và thư viện trường học nói riêng là xu hướng tất yếu, đặc biệt\n    với những trường đã có hoặc đang xây dựng thư viện đạt chuẩn, thư\n    viện tiên tiến... thì việc trang bị phần mềm là cần thiết và được\n    coi như một tiêu chí để đánh giá, xếp loại.\n  </p>\n  <p class=\"text-[24px] font-semibold text-[#16205F] text-justify  p-2\">\n    Phần mềm quản lý thư viện của Công ty TNHH phát triển phần mềm Văn\n    Việt được áp dụng theo các thông tư và quyết định sau:\n  </p>\n  <ul class=\"list-disc pl-10\">\n    <li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\n      QĐ 01/2003/QĐ-BGD&ĐT ngày 02/01/2003 của Bộ giáo dục & Đào tạo về\n      tiêu chuẩn thư viện trường phổ thông.\n    </li>\n    <li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\n      Công văn số 1200/NXBGDVN ngày 12/09/2016 về danh mục sách tham\n      khảo dùng cho thư viện trường học từ năm học 2016-2017.\n    </li>\n    <li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\n      QĐ 61/1998/QĐ-BGD&ĐT ngày 06/11/1998 của Bộ giáo dục & Đào tạo về\n      quy chế tổ chức và hoạt động thư viện.\n    </li>\n    <li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\n      Tiêu chuẩn Thư viện Quốc gia Việt Nam và tiêu chuẩn ISBD, AACR2,\n      ISBN, DDC 21, Phân loại tài liệu 19 lớp.\n    </li>\n  </ul>\n  <p class=\"text-[24px] font-semibold text-[#16205F] text-justify  p-2\">\n    Phần mềm đáp ứng được các nghiệp vụ sau:\n  </p>\n  <ul class=\"list-disc pl-10\">\n    <li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\n      Quản lý sách và tài liệu, In phích, phiếu\n    </li>\n    <li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\n      Tìm kiếm, tra cứu sách\n    </li>\n    <li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\n      Quản lý các đợt nhập và xuất sách\n    </li>\n    <li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\n      Quản lý độc giả\n    </li>\n    <li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\n      Quản lý mượn, trả sách\n    </li>\n    <li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\n      Tổng hợp tình hình mượn trả sách\n    </li>\n    <li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\n      In sổ đăng ký cá biệt, các báo cáo thống kê khác\n    </li>\n  </ul>\n</div>",
+            "sort_content": "Phần mềm đáp ứng được đầy đủ các nghiệp vụ chuyên môn...",
+            "slug": "quan-ly-thu-vien",
+            "author": {
+                "name": "admin",
+                "email": "vanvietcompany@gmail.com"
+            },
+            "published_at": "2024-01-11T12:30:00Z",
+            "tags": [
+                "JSON",
+                "Lập trình",
+                "Web development"
+            ],
+            "viewed": 1000,
+            "image": "https://firebasestorage.googleapis.com/v0/b/myapp-d52e9.appspot.com/o/vanviet%2Fquanlytruonghoc.jpg?alt=media&token=f04797ca-706e-4cf1-ade5-ecd501831ed0"
+        },
+        {
+            "id": 2,
+            "title": "Phần mềm Quản lý đối tượng cai nghiện",
+            "content": "<div class=\"p-4 bg-gray-100\">\n<p class=\"text-[24px] font-normal text-[#16205F] text-justify  p-2\">\n<b> Phần mềm quản lý đối tượng cai nghiện </b>, hay còn gọi là phần mềm quản lý\ncai nghiện, được sử dụng để quản lý các đối tượng cai nghiện. Nó giám\nsát tình hình thực hiện chính sách phòng chống tệ nạn xã hội của địa\nphương và thực hiện các nhiệm vụ liên quan.\n</p>\n<p class=\"text-[24px] font-normal text-[#16205F] text-justify  p-2\">\n <b>Phần mềm này áp dụng theo các thông tư</b>:\n</p>\n<ul class=\"list-disc pl-10\">\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nThông tư 05/2010/TT-BLĐTBXH\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nThông tư số 14/2014/TT-BLĐTBXH ngày 12 tháng 6 năm 2014\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nThông tư liên tịch số 03/2012/TTLT-BLĐTBXH-BYT-BCA ngày 10 tháng 02\nnăm 2012\n</li>\n</ul>\n<p class=\"text-[24px] font-normal text-[#16205F] text-justify  p-2\">\n <b>Phần mềm đáp ứng được các nghiệp vụ sau</b>:\n</p>\n<ul class=\"list-disc pl-10\">\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nHỗ trợ cán bộ xã cập nhật thông tin và biến động về đối tượng cai\nnghiện ma túy tại trung tâm và cộng đồng.\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nHỗ trợ công tác điều tra, rà soát đối tượng cai nghiện ma túy hàng\nnăm.\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nQuản lý chi tiết thông tin về đối tượng cai nghiện ma túy.\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nHỗ trợ việc kiểm tra giám sát tình hình thực hiện chính sách TNXH.\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nNâng cao hiệu lực quản lý cán bộ cấp xã trong quá trình triển khai,\nthực thi chính sách TNXH.\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nNâng cao năng lực cán bộ cấp xã trong quá trình triển khai, thực thi\nchính sách TNXH.\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nTổng hợp báo cáo thực hiện các chính sách về phòng chống TNXH trên\nđịa bàn.\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nHỗ trợ việc tổng hợp báo cáo định kỳ và đột xuất.\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nCung cấp thông tin nhanh chóng khi có nhu cầu.\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nQuản lý thông tin đối tượng cai nghiện ma túy thông qua sổ bộ điện\ntử.\n</li>\n<li class=\"text-[22px] font-normal text-[#16205F] text-justify  px-4\">\nCông khai, minh bạch việc thực hiện các chính sách TNXH.\n</li>\n</ul>\n</div>",
+            "sort_content": "Phần mềm đáp ứng được đầy đủ các nghiệp vụ chuyên môn...",
+            "slug": "quan-ly-cai-nghien",
+            "author": {
+                "name": "Admin",
+                "email": "vanvietcompany@gmail.com"
+            },
+            "published_at": "2024-01-11T12:30:00Z",
+            "tags": [
+                "JSON",
+                "Lập trình",
+                "Web development"
+            ],
+            "image": "https://firebasestorage.googleapis.com/v0/b/myapp-d52e9.appspot.com/o/vanviet%2Fquanlynguoicainghien.jpg?alt=media&token=ea3157c7-9c7a-4ffc-ac05-8d49591f397d"
+        },
+        {
+            "id": 3,
+            "title": "Phần mềm Quản lý trường học",
+            "content": "<div class=\"p-4 \">\n  <p class=\"text-[20px] font-normal text-[#16205F] text-justify p-2\">\n    <b>Phần mềm quản lý trường học</b> là phần mềm hỗ trợ các nhà trường trong công tác quản lý hồ sơ học sinh, hồ sơ giáo viên, quá trình học tập và rèn luyện của học sinh, cũng như quá trình công tác và giảng dạy của giáo viên. Hệ thống là một giải pháp tổng thể và đồng nhất trong việc tin học hóa công tác quản lý học sinh và giáo viên ở các nhà trường.\n  </p>\n  <p class=\"text-[20px] font-normal text-[#16205F] text-justify p-2\">\n    <b>Hệ thống sẽ đáp ứng được các nghiệp vụ quản lý sau:</b>\n  </p>\n  <ul class=\"list-disc pl-10\">\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify p-2\">\n      Quản lý báo số liệu ngày của các trường đối với Phòng Giáo dục\n      (số liệu học sinh, số liệu nhân sự, thống kê thực phẩm trong\n      ngày, thống kê thực đơn,…)\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify p-2\">\n      Quản lý hồ sơ giáo viên\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify p-2\">\n      Quản lý hồ sơ học sinh\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify p-2\">\n      Quản lý quá trình học tập và rèn luyện của học sinh\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify p-2\">\n      Quản lý học phí\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify p-2\">\n      Quản lý thu, chi (thu/chi của học sinh và các khoản thu/chi\n      khác)\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify p-2\">\n      Quản lý lịch Ban giám hiệu\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify p-2\">\n      Báo cáo theo yêu cầu của Phòng\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify p-2\">\n      Xem các văn bản do Phòng ban hành\n    </li>\n  </ul>\n  <p class=\"text-[20px] font-normal text-[#16205F] text-justify p-2\">\n    <b>Hệ thống</b> thực hiện phân quyền chức năng đối với từng đối\n    tượng người dùng: Quản trị hệ thống, người dùng cấp phòng/sở,\n    người dùng cấp phòng, người dùng cấp trường. Tài liệu này đề cập\n    đến các chức năng đối với người dùng là Giáo viên chủ nhiệm.\n  </p>\n</div>",
+            "sort_content": "Hệ thống đáp ứng được đầy đủ các nghiệp vụ quản lý...",
+            "slug": "quan-ly-truong-hoc",
+            "author": {
+                "name": "Admin",
+                "email": "vanvietcompany@gmail.com"
+            },
+            "published_at": "2024-01-11T12:30:00Z",
+            "tags": [
+                "JSON",
+                "Lập trình",
+                "Web development"
+            ],
+            "image": "https://firebasestorage.googleapis.com/v0/b/myapp-d52e9.appspot.com/o/vanviet%2Fquanlytruonghoc1.jpg?alt=media&token=b7bbf099-9a25-4f86-b33e-b503fe832ce2"
+        },
+        {
+            "id": 4,
+            "title": "Phần mềm Quản lý văn bản điều hành",
+            "content": "<div class=\"p-4\">\n    <p class=\"text-[18px] font-normal text-[#16205F] text-justify  p-2\">\n        Hiện nay, xu hướng đổi mới hiện đại hóa văn phòng, công tác hành chính tại các cơ quan, tổ chức và doanh nghiệp đang diễn ra rất mạnh mẽ và toàn diện.\n    </p>\n\n    <p class=\"text-[18px] font-normal text-[#16205F] text-justify  p-2\">\n        Ứng dụng văn phòng điện tử sẽ mang lại hiệu quả cao trong công việc, giúp tiết kiệm thời gian, chi phí, chuẩn hóa quy trình làm việc, quy trình xử lý văn bản và lưu trữ hồ sơ tài liệu.\n    </p>\n\n    <p class=\"text-[18px] font-normal text-[#16205F] text-justify  p-2\">\n        <strong>EDOC</strong> không chỉ là một hệ thống phần mềm quản lý văn bản, hồ sơ tài liệu mà còn là một hệ thống điều hành quản trị công việc toàn diện và chuyên nghiệp theo nhiều cấp quản lý. Phần mềm được thiết kế một cách khoa học với đầy đủ chức năng trao đổi thông tin, điều hành tác nghiệp, quản lý, lưu trữ, điều hành công việc trực tuyến trên mạng máy tính.\n    </p>\n\n    <p class=\"text-[18px] font-normal text-[#16205F] text-justify  p-2\">\n        Phần mềm có các chức năng sau:\n    </p>\n\n    <ol class=\"\">\n        <li class=\"text-[18px] font-normal text-[#16205F] text-justify  px-4 my-2\">\n            Quản lý văn bản đến/đi tại Bộ phận Văn thư\n\n            <ul class=\"list-disc px-6 text-[16px]\">\n                <li>Nhập văn bản đến</li>\n                <li>Chuyển xử lý văn bản</li>\n                <li>Nhập văn bản đi</li>\n                <li>Chèn số tự động vào văn bản trình ký</li>\n                <li>Tìm kiếm văn bản</li>\n                <li>In sổ văn bản</li>\n                <li>Thống kê tình hình xử lý văn bản của các bộ phận</li>\n            </ul>\n        </li>\n        <li class=\"text-[18px] font-normal text-[#16205F] text-justify  px-4 my-2\">\n            Xử lý văn bản tại các Bộ phận\n\n            <ul class=\"list-disc px-6 text-[16px]\">\n                <li>Nhận văn bản đến</li>\n                <li>Chuyển xử lý văn bản cho các bộ phận, cá nhân xử lý</li>\n                <li>Chỉ đạo bổ sung (nếu cần)</li>\n                <li>Tìm kiếm văn bản, công việc</li>\n                <li>Thống kê tình hình xử lý văn bản của các bộ phận</li>\n            </ul>\n        </li>\n        <li class=\"text-[18px] font-normal text-[#16205F] text-justify  px-4 my-2\">\n            Quản lý Trình ký văn bản đi\n\n            <ul class=\"list-disc px-6 text-[16px]\">\n                <li>Tạo văn bản trình ký</li>\n                <li>Phê duyệt văn bản</li>\n                <li>Cấp số văn bản đi</li>\n                <li>Phát hành văn bản</li>\n            </ul>\n        </li>\n    </ol>\n</div>",
+            "sort_content": "Ứng dụng văn phòng điện tử sẽ mang lại hiệu quả cao...",
+            "slug": "van-ban-dieu-hanh",
+            "author": {
+                "name": "Admin",
+                "email": "vanvietcompany@gmail.com"
+            },
+            "published_at": "2024-01-12T08:45:00Z",
+            "tags": [
+                "Phần mềm văn phòng",
+                "Quản lý văn bản",
+                "Hiện đại hóa văn phòng"
+            ],
+            "image": "https://firebasestorage.googleapis.com/v0/b/myapp-d52e9.appspot.com/o/vanviet%2Fquanlyvanban.jpg?alt=media&token=859e0cb2-56e3-4f0e-b0c1-e1fa11112649"
+        },
+        {
+            "id": 5,
+            "title": "Phần mềm Tuyển sinh đầu cấp trực tuyến",
+            "content": "<div class=\"p-4\">\n  <p class=\"text-[18px] font-normal text-[#16205F] text-justify p-2 \">\n    <b class=\"text-[20px] \">\n      Phần mềm tuyển sinh đầu cấp trực tuyến của Công ty TNHH phát\n      triển phần mềm Văn Việt\n    </b>   ra đời nhằm giúp nhà trường tin học hoá - hiện đại hoá công tác\n    tuyển sinh, giảm thời gian và chi phí cho phụ huynh và nhà trường.\n    Giúp công tác tuyển sinh đầu cấp được thực hiện nghiêm túc, công\n    bằng, khách quan, đảm bảo \"4 rõ\" (rõ tuyến tuyển sinh, rõ chỉ tiêu\n    tuyển sinh, rõ thời gian tuyển sinh và trách nhiệm trong công tác\n    tuyển sinh),\n    \"3 tăng, 3 giảm\" (tăng quy mô tuyển sinh, tăng chất\n    lượng công tác tuyển sinh, tăng cường cơ sở vật chất cho các\n    trường học, giảm số học sinh trái tuyến, giảm số học sinh trên một\n    lớp, giảm số lớp đối với những trường có số lớp quá lớn).\n  </p>\n\n  <p class=\"text-[20px] font-normal text-[#16205F] text-justify p-2\">\n    <b>Phần mềm phù hợp và đáp ứng</b>\n  </p>\n  <ul class=\"list-disc p-4\">\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify px-4\">\n      Thông tư số 11/2014/TT-BGDĐT ngày 18 tháng 4 năm 2014 của Bộ\n      trưởng Bộ Giáo dục và Đào tạo ban hành Quy chế tuyển sinh trung\n      học cơ sở và tuyển sinh trung học phổ thông, có hiệu lực kế từ\n      ngày 02 tháng 6 năm 2014, được sửa đổi, bổ sung bởi:\n      <ul class=\"px-4 \">\n        <li class=\"my-1\">\n          1. Thông tư số 18/2014/TT-BGDĐT ngày 26 tháng 5 năm 2014 của\n          Bộ trưởng Bộ Giáo dục và Đảo tạo bổ sung vào điểm a khoản 2\n          Điều 7 của Quy chế tuyển sinh trung học cơ sở và tuyên sinh\n          trung học phổ thông ban hành kèm theo Thông tư số\n          11/2014/TT-BGDĐT ngày 18 tháng 4 năm 2014 của Bộ trưởng Bộ\n          Giáo dục và Đào tạo, có hiệu lực kể từ ngày 02 tháng 6 năm\n          2014.\n        </li>\n        <li class=\"my-1 \">\n          2. Thông tư số 05/2018/TT-BGDĐT ngày 28 tháng 02 năm 2018\n          của Bộ trưởng Bộ Giáo dục và Đào tạo sửa đổi, bổ sung khoản\n          1 Điều 2, khoản 2 Điều 4, điểm d khoản 1 và đoạn đầu khoản 2\n          Điều 7 của Quy chế tuyển sinh trung học cơ sở và tuyển sinh\n          trung học phổ thông ban hành kèm theo Thông tư số\n          11/2014/TT-BGDĐT ngày 18 tháng 4 năm 2014 của Bộ trưởng Bộ\n          Giáo dục và Đào tạo, có hiệu lực kế từ ngày 15 tháng 4 năm\n          2018.\n        </li>\n      </ul>\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify px-4\">\n      Thông tư 01/2019/TT-BLĐTBXH Quy định về việc xác định mức độ\n      khuyết tật do Hội đồng xác định mức độ khuyết tật thực hiện\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify px-4\">\n      Thông tư số 09/2009/TT-BGDĐT ngày 07/05/2009 của Bộ trưởng Bộ\n      Giáo dục và Đào tạo về việc ban hành Quy chế thực hiện công khai\n      đối với cơ sở giáo dục của hệ thống giáo dục quốc dân.\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify px-4\">\n      Văn bản hợp nhất 04/VBHN-BGDĐT năm 2015 hợp nhất Thông tư về\n      Điều lệ Trường Mầm non do Bộ Giáo dục và Đào tạo ban hành\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify px-4\">\n      Văn bản hợp nhất 03/VBHN-BGDĐT năm 2014 hợp nhất Thông tư về\n      Điều lệ Trường Tiểu học do Bộ Giáo dục và Đào tạo ban hành\n    </li>\n    <li class=\"text-[18px] font-normal text-[#16205F] text-justify px-4\">\n      Thông tư 12/2011/TT-BGDĐT về Điều lệ trường trung học cơ sở, phổ\n      thông và trường phổ thông có nhiều cấp học do Bộ Giáo dục và Đào\n      tạo ban hành\n    </li>\n  </ul>\n</div>",
+            "sort_content": "Phần mềm Tuyển sinh đầu cấp trực tuyến của Công ty TNHH...",
+            "slug": "tuyen-sinh-truc-tuyen",
+            "author": {
+                "name": "Admin",
+                "email": "vanvietcompany@gmail.com"
+            },
+            "published_at": "2024-01-12T09:30:00Z",
+            "tags": [
+                "Phần mềm tuyển sinh",
+                "Tuyển sinh trực tuyến",
+                "Quản lý tuyển sinh"
+            ],
+            "image": "https://firebasestorage.googleapis.com/v0/b/myapp-d52e9.appspot.com/o/vanviet%2Fquanlytuyensinh.jpg?alt=media&token=104bfadf-8416-41e0-ab43-d071737b7bd0"
+        },
+        {
+            "id": 6,
+            "title": "Báo cáo kiểm định chất lượng giáo dục",
+            "content": "<div class=\"p-4\">\n  <p class=\"text-[20px] my-2 text-justify\">\n    <strong>\n      Ứng dụng phát triển dựa trên nền tảng điện toán đám mây, cơ sở\n      dữ liệu tập trung với các công nghệ hàng đầu từ Microsoft,\n      Google, …vv gồm: .Net Framework, HTML 5, Bootstrap, SQL Server.\n      Hệ thống hỗ trợ đa nền tảng, đa trình duyệt. Giao diện ứng dụng\n      trên Desktop áp dụng công nghệ WPF mềm dẻo và linh hoạt. Phần\n      mềm là một sản phẩm thuần Việt và dễ sử dụng.\n    </strong>\n  </p>\n\n  <p class=\"text-[20px] my-2 text-justify\">\n    Ngoài ra do được phát triển trên nền điện toán đám mây nên phần\n    mềm có thể truy cập và sử dụng tại bất cứ nơi đâu, bất cứ khi nào.\n    Với hệ thống cơ sở dữ liệu tập trung, đảm bảo có thể kết xuất báo\n    cáo thống kê ngay tức thời mà không cần chờ đợi các đơn vị trực\n    thuộc phải gửi báo cáo lên theo cách thông thường.\n  </p>\n\n  <p class=\"text-[20px] my-2 text-justify\">\n    <strong>Dễ dàng trong cài đặt và sử dụng:</strong> Thiết kế của\n    X-KDGD Solutions luôn cập nhật các công nghệ mới nhất của\n    Microsoft và có thể chạy trên nhiều hệ cơ sở dữ liệu.\n  </p>\n\n  <p class=\"text-[20px] my-2 text-justify\">\n    <strong>Khả năng ứng dụng và mở rộng mạnh mẽ:</strong> Thích hợp\n    cho nhiều dự án khác nhau bao gồm tất cả các đơn vị có hoạt động\n    nghiên cứu khoa học đều có thể xây dựng trên những tính năng có\n    sẵn của X-KDGD hoặc từ các module phát triển thêm.\n  </p>\n\n  <ul class=\"text-[20px] my-2 list-disc pl-8\">\n    <li>\n      <strong>Tính đơn giản hiệu quả và quản lý:</strong> Chỉ với một\n      lần cài đặt, phân quyền rõ ràng giữa các User.\n    </li>\n    <li>\n      <strong>Ưu tiên về bảo mật:</strong> Có cơ chế mạnh mẽ về xác\n      nhận quyền, mã hóa, lưu vết lỗi và các nguy hiểm tiềm tàng.\n    </li>\n    <li>\n      <strong>Khả năng tùy biến và nội địa hóa mạnh mẽ:</strong> Phần\n      mềm thuần Việt tự động cập nhật phiên bản mới, chỉnh sửa theo\n      đặc thù ngành, địa phương, đơn vị.\n    </li>\n    <li class=\"text-justify\">\n      <strong>Giao diện người dùng thân thiện:</strong> Giao diện được\n      nghiên cứu và thiết kế tối ưu hiển thị giúp cho người dùng dễ\n      dàng quản lý mọi khía cạnh.\n    </li>\n  </ul>\n</div>",
+            "sort_content": "Phần mềm Tuyển sinh đầu cấp trực tuyến của Công ty TNHH Phát triển Phần mềm Văn Việt là một giải pháp hiện đại ...",
+            "slug": "bao-cao-chat-luong",
+            "author": {
+                "name": "Admin",
+                "email": "vanvietcompany@gmail.com"
+            },
+            "published_at": "2024-01-11T12:30:00Z",
+            "tags": [
+                "JSON",
+                "Lập trình",
+                "Web development"
+            ],
+            "image": "https://firebasestorage.googleapis.com/v0/b/myapp-d52e9.appspot.com/o/vanviet%2Fbaocaokiemdinh.jpg?alt=media&token=564a305e-305f-43c5-89b2-f64210074571"
+        }
+    ]
+}
