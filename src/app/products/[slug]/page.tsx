@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Link from "next/link";
 
 const getOneProduct = async (slug: string) => {
-  const response = await fetch(`/api/products/${slug}`, {
+  const response = await fetch(`${process.env.API_URL}/api/products/${slug}`, {
     method: "GET",
   });
   const data = (await response.json()) || {};
