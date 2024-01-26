@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 //fetching data
 
 const getAllProduct = async () => {
-  const response = await fetch(`${process.env.API_URL}/api/products`, {
+  const response = await fetch(`http://localhost:3000/api/products`, {
     method: "GET",
   });
   const data = (await response.json()) || [];

@@ -3,17 +3,15 @@ import Connect from "@/components/Connect";
 import Header from "@/components/Header";
 import Link from "next/link";
 
-export const dynamicParams = false;
-
-export async function generateStaticParams() {
-  const products = await await fetch(`${process.env.API_URL}/api/products`, {
-    method: "GET",
-  }).then((response) => response.json());
-  return products.posts.map((product: any) => ({ slug: product.slug }));
-}
+// export async function generateStaticParams() {
+//   const products = await fetch(`http://localhost:3000/api/products`, {
+//     method: "GET",
+//   }).then((response) => response.json());
+//   return products.posts.map((product: any) => ({ slug: product.slug }));
+// }
 
 const getOneProduct = async (slug: string) => {
-  const response = await fetch(`${process.env.API_URL}/api/products/${slug}`, {
+  const response = await fetch(`http://localhost:3000/api/products/${slug}`, {
     method: "GET",
   });
   const data = (await response.json()) || {};
