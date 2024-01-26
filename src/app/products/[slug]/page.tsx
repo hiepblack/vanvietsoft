@@ -3,6 +3,15 @@ import Connect from "@/components/Connect";
 import Header from "@/components/Header";
 import Link from "next/link";
 
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const products = await await fetch(`${process.env.API_URL}/api/products`, {
+    method: "GET",
+  }).then((response) => response.json());
+  return products.posts.map((product: any) => ({ slug: product.slug }));
+}
+
 const getOneProduct = async (slug: string) => {
   const response = await fetch(`${process.env.API_URL}/api/products/${slug}`, {
     method: "GET",
@@ -10,6 +19,7 @@ const getOneProduct = async (slug: string) => {
   const data = (await response.json()) || {};
   return data;
 };
+
 export default async function ProductDetailPage({ params }: any) {
   const data = await getOneProduct(params.slug);
   return (
