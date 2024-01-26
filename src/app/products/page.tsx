@@ -2,16 +2,11 @@ import Banner from "@/components/Banner";
 import Connect from "@/components/Connect";
 import CardProduct from "./components/CardProduct";
 import Header from "@/components/Header";
+import data from "../../data/data.json";
 
 //fetching data
 
 const ProductPage = async () => {
-  const response = await fetch(`${process.env.API_URL}/api/products`, {
-    method: "GET",
-  });
-  const data = (await response.json()) || [];
-  console.log(data);
-
   return (
     <section className="min-h-screen ">
       <div className="container mx-auto">
