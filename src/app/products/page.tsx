@@ -5,16 +5,12 @@ import Header from "@/components/Header";
 
 //fetching data
 
-const getAllProduct = async () => {
+const ProductPage = async () => {
   const response = await fetch(`${process.env.API_URL}/api/products`, {
     method: "GET",
   });
   const data = (await response.json()) || [];
-  return data;
-};
-
-const ProductPage = async () => {
-  const { posts } = await getAllProduct();
+  console.log(data);
 
   return (
     <section className="min-h-screen ">
@@ -33,7 +29,7 @@ const ProductPage = async () => {
         </h1>
       </div>
       <div className="container mx-auto my-8 grid md:grid-cols-3 grid-cols-1 gap-8 ">
-        <CardProduct data={posts} />
+        <CardProduct data={data.posts} />
       </div>
       <div className="container mx-auto px-2 py-4 my-4">
         <Connect />
