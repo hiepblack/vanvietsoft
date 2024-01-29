@@ -3,10 +3,7 @@ import type { Metadata } from "next";
 import Connect from "@/components/Connect";
 import Header from "@/components/Header";
 import gioithieu1 from "../../../public/gioithieu1.jpg";
-import gioithieu2 from "../../../public/gioithieu2.jpg";
 import gioithieu3 from "../../../public/gioithieu3.jpg";
-import gioithieu4 from "../../../public/gioithieu4.jpg";
-import gioithieu5 from "../../../public/gioithieu5.jpg";
 import gioithieu6 from "../../../public/gioithieu6.jpg";
 
 export const metadata: Metadata = {
@@ -27,15 +24,17 @@ const AboutPage = () => {
       </div>
       {/* giới thiệu */}
       <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row-reverse gap-8">
+        <div className="hero-content flex-col lg:flex-row-reverse ">
           <img
             src={gioithieu1.src}
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="xl:w-1/3 w-full rounded-lg object-cover h-[300px] xl:h-full"
           />
           <div>
-            <h1 className="text-5xl font-bold">Giới thiệu về chúng tôi!</h1>
-            <div className="p-1 my-4">
-              <p className="text-[22px] font-normal text-[#16205F] w-full text-justify">
+            <h1 className="xl:text-5xl text-2xl font-bold">
+              Giới thiệu về chúng tôi!
+            </h1>
+            <div className="xl:p-2 my-4">
+              <p className="xl:text-[22px] text-[18px] font-normal text-[#16205F] w-full text-justify">
                 <b>Công ty TNHH phát triển phần mềm Văn Việt</b> gọi tắt là{" "}
                 <b>Công ty phần mềm Văn Việt</b> - là một trong số ít các công
                 ty cung cấp các giải pháp, dịch vụ CNTT chuyên nghiệp và phát
@@ -49,96 +48,51 @@ const AboutPage = () => {
         </div>
       </div>
       {/* sứ mệnh */}
-      <div className="hero min-h-screen bg-white">
-        <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
-          <div>
-            <h1 className="text-5xl font-bold">Sứ mệnh phục vụ!</h1>
+      <div className=" min-h-screen bg-white relative">
+        <div className="absolute px-5 h-1/2 z-50 xl:top-1/3  w-full top-10">
+          <div className="container mx-auto bg-transparent shadow-xl p-8 rounded-lg">
+            <h1 className="xl:text-5xl text-2xl font-bold">Sứ mệnh phục vụ!</h1>
             <div className="p-2">
-              <p className="text-[22px] font-normal text-[#16205F] w-full text-justify">
+              <p className="xl:text-[22px] text-[18px] font-normal text-[#16205F] w-full text-justify">
                 Nhiệm vụ của <b>Văn Việt</b> là tăng cường hiệu công việc của
                 khách hàng bằng cách phát triển và chuyển giao các sản phẩm và
                 dịch vụ CNTT chuyên nghiệp.
               </p>
-              <p className="text-[22px] font-normal text-[#16205F] w-full text-justify my-2">
+              <p className="xl:text-[22px] text-[18px] font-normal text-[#16205F] w-full text-justify my-2">
                 Trong đó bao gồm:
               </p>
-              <ul className="list-disc md:px-8 pl-8 text-[22px] font-normal text-[#16205F]">
-                <li>
-                  Cung cấp các dịch vụ phát triển phần mềm chất lượng cao, tư
-                  vấn chuyên nghiệp, liên tục cải tiến để cải thiện hoạt động
-                  của khách hàng;
+              <ul className=" xl:text-[22px] text-[18px] font-normal text-[#16205F] grid xl:grid-cols-2 grid-cols-1 gap-4">
+                <li className="p-4 border rounded-lg text-md">
+                  Đảm bảo cung cấp dịch vụ hỗ trợ nhanh chóng và hiệu quả
                 </li>
-                <li>
-                  Giúp khách hàng tiếp cận thông tin dữ liệu dễ dàng, nhanh
-                  chóng, đảm bảo dữ liệu an toàn và bảo mật hơn
+                <li className="p-4 border rounded-md text-md">
+                  Đảm bảo cung cấp dịch vụ hỗ trợ nhanh chóng và hiệu quả
                 </li>
-                <li>Cải thiện sự trao đổi thông tin và trao đổi dữ liệu</li>
-                <li>Giá dịch vụ linh động so với quy mô của từng khách hàng</li>
-                <li>Đảm bảo cung cấp dịch vụ hỗ trợ nhanh chóng và hiệu quả</li>
+                <li className="p-4 border rounded-md text-md">
+                  Đảm bảo cung cấp dịch vụ hỗ trợ nhanh chóng và hiệu quả
+                </li>
               </ul>
             </div>
           </div>
-          <div className="-m-1 flex flex-wrap md:-m-2">
-            <div className="flex w-1/2 flex-wrap">
-              <div className="w-1/2 p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  className="block h-full w-full rounded-lg object-cover object-center"
-                  src={gioithieu1.src}
-                />
-              </div>
-              <div className="w-1/2 p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  className="block h-full w-full rounded-lg object-cover object-center"
-                  src={gioithieu2.src}
-                />
-              </div>
-              <div className="w-full p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  className="block h-full w-full rounded-lg object-cover object-center"
-                  src={gioithieu3.src}
-                />
-              </div>
-            </div>
-            <div className="flex w-1/2 flex-wrap">
-              <div className="w-full p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  className="block h-full w-full rounded-lg object-cover object-center"
-                  src={gioithieu4.src}
-                />
-              </div>
-              <div className="w-1/2 p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  className="block h-full w-full rounded-lg object-cover object-center"
-                  src={gioithieu2.src}
-                />
-              </div>
-              <div className="w-1/2 p-1 md:p-2">
-                <img
-                  alt="gallery"
-                  className="block h-full w-full rounded-lg object-cover object-center"
-                  src={gioithieu5.src}
-                />
-              </div>
-            </div>
-          </div>
         </div>
+        <img
+          src={gioithieu3.src}
+          className="h-[100%] w-full absolute object-cover z-0 inset-0"
+        />
       </div>
       {/* tầm nhìn */}
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-screen bg-base-200 ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={gioithieu6.src}
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="xl:w-1/3 w-full rounded-lg object-cover"
           />
           <div>
-            <h1 className="text-5xl font-bold">Tầm nhìn chiến lược!</h1>
-            <div className="p-2">
-              <p className="text-[22px] font-normal text-[#16205F] w-full text-justify my-4 md:w-[90%]">
+            <h1 className="xl:text-5xl text-2xl font-bold">
+              Tầm nhìn chiến lược!
+            </h1>
+            <div className="xl:p-2">
+              <p className="xl:text-[22px] text-md font-normal text-[#16205F] w-full text-justify my-4 md:w-[90%]">
                 <b>Văn Việt</b> là một công ty CNTT hàng đầu trong cung cấp dịch
                 vụ tư vấn và triển khai các hệ thống, giải pháp CNTT hoàn chỉnh
                 và tối ưu nhất cho các đơn vị hành chính nhà nước cũng như các
