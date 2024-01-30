@@ -114,12 +114,12 @@
         {
             "id": 1,
             "title": "Giới thiệu về chúng tôi!",
-            "description": "<b>Công ty TNHH phát triển phần mềm Văn Việt</b> gọi tắt là <b>Công ty phần mềm Văn Việt</b> - là một trong số ít các công ty cung cấp các giải pháp, dịch vụ CNTT chuyên nghiệp và phát triển phần mềm trong lĩnh vực quản lý nhà nước, quản lý giáo dục. Ngoài ra chúng tôi cũng cung cấp dịch vụ tư vấn, thiết kế và phát triển phần mềm cũng như các giải pháp phần cứng, triển khai và bảo trì cho các hệ thống CNTT trong các doanh nghiệp..."
+            "description": "<p class=\"xl:text-[22px] text-[18px] font-normal text-[#16205F] w-full text-justify \" > <b>Công ty TNHH phát triển phần mềm Văn Việt</b> gọi tắt là <b>Công ty phần mềm Văn Việt</b> - là một trong số ít các công ty cung cấp các giải pháp, dịch vụ CNTT chuyên nghiệp và phát triển phần mềm trong lĩnh vực quản lý nhà nước, quản lý giáo dục. Ngoài ra chúng tôi cũng cung cấp dịch vụ tư vấn, thiết kế và phát triển phần mềm cũng như các giải pháp phần cứng, triển khai và bảo trì cho các hệ thống CNTT trong các doanh nghiệp...</p>"
         },
         {
             "id": 2,
             "title": "Sứ mệnh phục vụ!",
-            "description": "Nhiệm vụ của <b>Văn Việt</b> là tăng cường hiệu công việc của  khách hàng bằng cách phát triển và chuyển giao các sản phẩm và dịch vụ CNTT chuyên nghiệp.",
+            "description": "<p class=\"xl:text-[22px] text-[18px] font-normal text-[#16205F] w-full text-justify \" > Nhiệm vụ của <b>Văn Việt</b> là tăng cường hiệu công việc của  khách hàng bằng cách phát triển và chuyển giao các sản phẩm và dịch vụ CNTT chuyên nghiệp.</p>",
             "detail_des": [
                 {
                     "id": 1,
@@ -146,7 +146,7 @@
         {
             "id": 3,
             "title": "Tầm nhìn chiến lược!",
-            "description": "<b>Văn Việt</b> là một công ty CNTT hàng đầu trong cung cấp dịch  vụ tư vấn và triển khai các hệ thống, giải pháp CNTT hoàn chỉnh và tối ưu nhất cho các đơn vị hành chính nhà nước cũng như các doanh nghiệp trong cả nước"
+            "description": "<p class=\"xl:text-[22px] text-[18px] font-normal text-[#16205F] w-full text-justify \" > <b>Văn Việt</b> là một công ty CNTT hàng đầu trong cung cấp dịch  vụ tư vấn và triển khai các hệ thống, giải pháp CNTT hoàn chỉnh và tối ưu nhất cho các đơn vị hành chính nhà nước cũng như các doanh nghiệp trong cả nước </p>"
         }
     ]
 }

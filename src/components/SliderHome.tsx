@@ -19,7 +19,9 @@ import Link from "next/link";
 
 const SliderHome = () => {
   const router = useRouter();
-
+  const handScroll = () => {
+    window.scrollTo(0, 900);
+  };
   const handleClick = () => {
     router.push("/about");
   };
@@ -77,7 +79,7 @@ const SliderHome = () => {
           />
         </div>
       </SwiperSlide>
-      <div className="my-10 xl:my-0 md:absolute md:left-40 md:w-[50%] md:h-[45%] md:top-[20%] py-2 md:px-4  z-[999] ">
+      <div className="my-10 xl:my-0 md:absolute md:left-44 md:w-[50%] md:h-[45%] md:top-[20%] py-2 md:px-4  z-[999] ">
         <h1 className="md:text-[60px] text-[28px] p-2 text-[#F2CB00] font-semibold">
           WELCOME TO VĂN VIỆT SOFTWARE
         </h1>
@@ -120,21 +122,10 @@ const SliderHome = () => {
           </button>
         </div>
         <div className="xl:flex gap-2 p-2 hidden">
-          <Link href="/">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
-              viewBox="0 0 30 30"
-              fill="none"
-            >
-              <path
-                d="M6.25 3.75024C4.86875 3.75024 3.75 4.86899 3.75 6.25024V23.7502C3.75 25.1315 4.86875 26.2502 6.25 26.2502H23.75C25.1313 26.2502 26.25 25.1315 26.25 23.7502V6.25024C26.25 4.86899 25.1313 3.75024 23.75 3.75024H6.25ZM6.25 6.25024H23.75V23.7502H6.25V6.25024ZM9.72412 7.89575C8.65287 7.89575 8.01025 8.53972 8.01025 9.39722C8.01025 10.2547 8.65295 10.8962 9.6167 10.8962C10.6879 10.8962 11.3306 10.2547 11.3306 9.39722C11.3306 8.53972 10.6879 7.89575 9.72412 7.89575ZM8.0957 12.5002V21.2502H11.25V12.5002H8.0957ZM13.8525 12.5002V21.2502H17.0068V16.4675C17.0068 15.0438 18.0226 14.8391 18.3276 14.8391C18.6326 14.8391 19.4482 15.145 19.4482 16.4675V21.2502H22.5V16.4675C22.5 13.7213 21.2797 12.5002 19.7534 12.5002C18.2272 12.5002 17.4131 13.0084 17.0068 13.7209V12.5002H13.8525Z"
-                fill="#FFFFFF"
-              />
-            </svg>
-          </Link>
-          <Link href="/">
+          <Link
+            href="/"
+            className="hover:-translate-y-2 delay-75 transition-all"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -148,7 +139,10 @@ const SliderHome = () => {
               />
             </svg>
           </Link>
-          <Link href="/">
+          <Link
+            href="/"
+            className="hover:-translate-y-2 delay-75 transition-all"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -162,7 +156,10 @@ const SliderHome = () => {
               />
             </svg>
           </Link>
-          <Link href="/">
+          <Link
+            href="/"
+            className="hover:-translate-y-2 delay-75 transition-all"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -176,7 +173,10 @@ const SliderHome = () => {
               />
             </svg>
           </Link>
-          <Link href="/">
+          <Link
+            href="/"
+            className="hover:-translate-y-2 delay-75 transition-all"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -191,6 +191,26 @@ const SliderHome = () => {
             </svg>
           </Link>
         </div>
+      </div>
+      <div className="absolute z-[999] bottom-10 right-1/2 text-white hidden xl:flex  justify-center items-center flex-col gap-4">
+        <p className="text-center">Kéo xuống</p>
+        <button className="" onClick={handScroll}>
+          <svg
+            width="32"
+            height="32"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            className="animate-bounce"
+          >
+            <path d="M14 3h-4a4 4 0 0 0-4 4v10a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V7a4 4 0 0 0-4-4Z"></path>
+            <path d="M12 7v4"></path>
+          </svg>
+        </button>
       </div>
     </Swiper>
   );

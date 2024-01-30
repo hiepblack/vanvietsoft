@@ -1,8 +1,9 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import logo from "../../public/logo.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import emailjs from "@emailjs/browser";
 
 type Props = {
   bgColor: string;
@@ -10,7 +11,9 @@ type Props = {
 };
 
 const Header = ({ bgColor, color }: Props) => {
+  const [check, setCheck] = useState(0);
   const pathname = usePathname();
+  const form = useRef<any>(null);
 
   const [show, setShow] = useState(false);
   const handleShowMenu = () => {
@@ -20,6 +23,29 @@ const Header = ({ bgColor, color }: Props) => {
   useEffect(() => {
     setShow(false);
   }, [pathname]);
+
+  const handleSendMail = () => {
+    if (!check) {
+      return alert(
+        "Bạn chưa xác nhận rằng tôi đã đọc và chấp nhận Chính sách bảo mật"
+      );
+    }
+    // emailjs
+    //   .send(
+    //     "service_u2gsnya",
+    //     "template_978uew1",
+    //     form?.current,
+    //     "jN_Xe5BR9kIqgaFDT"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       alert("Gửi email thành công");
+    //     },
+    //     (error) => {
+    //       alert(error.text);
+    //     }
+    //   );
+  };
 
   return (
     <div className={`w-full shadow-sm mx-auto ${bgColor}`}>
@@ -86,7 +112,7 @@ const Header = ({ bgColor, color }: Props) => {
               Kết Nối Với Chúng Tôi Ngay Hôm Nay!
             </h3>
             <div className="modal-action">
-              <form method="dialog">
+              <form method="dialog" ref={form} onSubmit={handleSendMail}>
                 <div className="md:grid md:grid-cols-2">
                   <div className="flex flex-col p-2">
                     <label
@@ -96,6 +122,7 @@ const Header = ({ bgColor, color }: Props) => {
                       Công ty
                     </label>
                     <input
+                      name="company_name"
                       id="cty"
                       type="text"
                       placeholder="Nhập vào đây"
@@ -110,6 +137,7 @@ const Header = ({ bgColor, color }: Props) => {
                       Tên của bạn
                     </label>
                     <input
+                      name="username"
                       id="name"
                       type="text"
                       placeholder="Nhập vào đây"
@@ -126,6 +154,7 @@ const Header = ({ bgColor, color }: Props) => {
                       Số điện thoại
                     </label>
                     <input
+                      name="phone_number"
                       id="phone_number"
                       type="text"
                       className="p-2 border rounded-md outline-none"
@@ -140,6 +169,7 @@ const Header = ({ bgColor, color }: Props) => {
                       Email
                     </label>
                     <input
+                      name="email"
                       id="email"
                       type="email"
                       className="p-2 border rounded-md outline-none"
@@ -155,7 +185,7 @@ const Header = ({ bgColor, color }: Props) => {
                     Mô tả chi tiết dự án
                   </label>
                   <textarea
-                    name=""
+                    name="project_detail"
                     id="project_detail"
                     cols={10}
                     rows={10}
@@ -164,7 +194,16 @@ const Header = ({ bgColor, color }: Props) => {
                   ></textarea>
                 </div>
                 <div className="p-2 flex items-start gap-2 w-[90%]">
-                  <input type="checkbox" className="my-1" />
+                  <input
+                    type="checkbox"
+                    className="my-1"
+                    name="check"
+                    value={check}
+                    onChange={() => {
+                      if (check == 0) setCheck(1);
+                      if (check == 1) setCheck(0);
+                    }}
+                  />
                   <p className="text-[16px] text-[#16205F] font-normal">
                     Bằng cách gửi biểu mẫu này, tôi xác nhận rằng tôi đã đọc và
                     chấp nhận
@@ -175,7 +214,6 @@ const Header = ({ bgColor, color }: Props) => {
                   <button className="btn px-4 py-4 border rounded-md bg-[#F2CB00] text-white text-[16px] font-semibold w-full md:w-[40%]">
                     Kết nối với chúng tôi
                   </button>
-                  <button className="btn">Đóng</button>
                 </div>
               </form>
             </div>
