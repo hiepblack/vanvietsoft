@@ -59,37 +59,47 @@ const Header = ({ bgColor, color }: Props) => {
         </Link>
         <ul className="hidden grid-cols-5 gap-4 w-[55%] xl:grid  transition-all ml-2">
           <li
-            className={`p-1 text-lg text-${color} ${
-              pathname === "/" ? "font-semibold text-xl" : "font-normal"
-            }  text-center hover:text-[#F2CB00] transition-all`}
+            className={`py-2 text-lg text-${color} ${
+              pathname === "/"
+                ? "font-semibold text-xl  bg-gray-900"
+                : "font-normal"
+            }  text-center hover:text-[#F2CB00] transition-all  rounded-md `}
           >
             <Link href="/">Trang chủ</Link>
           </li>
           <li
-            className={`p-1 text-lg text-${color} ${
-              pathname === "/about" ? "font-semibold text-xl" : "font-normal"
-            }  text-center hover:text-[#F2CB00] transition-all`}
+            className={`py-2 text-lg text-${color} ${
+              pathname === "/about"
+                ? "font-semibold text-xl border bg-gray-900 text-white"
+                : "font-normal"
+            }  text-center hover:text-[#F2CB00] transition-all  rounded-md`}
           >
             <Link href="/about">Giới thiệu</Link>
           </li>
           <li
-            className={`p-1 text-lg text-${color} ${
-              pathname === "/contact" ? "font-semibold text-xl" : "font-normal"
-            }  text-center hover:text-[#F2CB00] transition-all`}
+            className={`py-2 text-lg text-${color} ${
+              pathname === "/contact"
+                ? "font-semibold text-xl border bg-gray-900 text-white"
+                : "font-normal"
+            }  text-center hover:text-[#F2CB00] transition-all rounded-md`}
           >
             <Link href="/contact">Liên hệ</Link>
           </li>
           <li
-            className={`p-1 text-lg text-${color} ${
-              pathname === "/products" ? "font-semibold text-xl" : "font-normal"
-            }  text-center hover:text-[#F2CB00] transition-all`}
+            className={`py-2 text-lg text-${color} ${
+              pathname === "/products"
+                ? "font-semibold text-xl border bg-gray-900 text-white"
+                : "font-normal"
+            }  text-center hover:text-[#F2CB00] transition-all rounded-md`}
           >
             <Link href="/products">Sản phẩm</Link>
           </li>
           <li
-            className={`p-1 text-lg text-${color} ${
-              pathname === "/services" ? "font-semibold text-xl" : "font-normal"
-            }  text-center hover:text-[#F2CB00] transition-all`}
+            className={`py-2 text-lg text-${color} ${
+              pathname === "/services"
+                ? "font-semibold text-xl border bg-gray-900 text-white"
+                : "font-normal"
+            }  text-center hover:text-[#F2CB00] transition-all rounded-md`}
           >
             <Link href="/services">Dịch vụ</Link>
           </li>

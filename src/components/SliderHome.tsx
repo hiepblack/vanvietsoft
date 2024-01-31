@@ -79,6 +79,15 @@ const SliderHome = () => {
           />
         </div>
       </SwiperSlide>
+      <SwiperSlide>
+        <div className="relative overflow-hidden  w-full p-2 xl:p-0 top-16 xl:top-0">
+          <img
+            src={banner4.src}
+            alt="ảnh minh hoạ 4"
+            className="xl:h-screen w-full object-cover rounded-lg xl:rounded-none"
+          />
+        </div>
+      </SwiperSlide>
       <div className="my-10 xl:my-0 md:absolute md:left-44 md:w-[50%] md:h-[45%] md:top-[20%] py-2 md:px-4  z-[999] ">
         <h1 className="md:text-[60px] text-[28px] p-2 text-[#F2CB00] font-semibold">
           WELCOME TO VĂN VIỆT SOFTWARE

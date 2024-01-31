@@ -240,7 +240,7 @@ export default function Home() {
       <div>
         <SliderHome />
       </div>
-      <div className="container mx-auto my-8 ">
+      <div className="container mx-auto my-8 p-2">
         <Slide content={dataSlide1} />
       </div>
       <div>

@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../public/logo.png";
 import Link from "next/link";
+import data from "../data/data.json";
 
 const Footer = () => {
   return (
@@ -199,12 +200,12 @@ const Footer = () => {
             </li>
             <li className="py-2">
               <p className="text-[18px] font-normal text-[#16205f] hover:text-yellow-500">
-                Lượt xem
+                Lượt xem : {Math.floor(Math.random() * 1000) > 900}
               </p>
             </li>
             <li className="py-2">
               <p className="text-[18px] font-normal text-[#16205f] hover:text-yellow-500">
-                Các bài viết
+                Các bài viết : {data.posts.length} bài viết
               </p>
             </li>
             <li className="py-2">

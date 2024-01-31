@@ -1,9 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import connectImg from "../../public/Rectangle 34.png";
 import emailjs from "@emailjs/browser";
 
-const Connect = () => {
+const Form = () => {
   const [check, setCheck] = useState(0);
   const [form, setForm] = useState<any>({
     company_name: "",
@@ -19,35 +18,32 @@ const Connect = () => {
         "Bạn chưa xác nhận rằng tôi đã đọc và chấp nhận Chính sách bảo mật"
       );
     }
-    emailjs
-      .send("service_u2gsnya", "template_978uew1", form, "jN_Xe5BR9kIqgaFDT")
-      .then(
-        (result) => {
-          alert("Gửi email thành công");
-          setForm({
-            company_name: "",
-            user_name: "",
-            phone_number: null,
-            email: "",
-            project_detail: "",
-          });
-          setCheck(0);
-        },
-        (error) => {
-          alert(error.text);
-        }
-      );
+    // emailjs
+    //   .send("service_u2gsnya", "template_978uew1", form, "jN_Xe5BR9kIqgaFDT")
+    //   .then(
+    //     (result) => {
+    //       alert("Gửi email thành công");
+    //       setForm({
+    //         company_name: "",
+    //         user_name: "",
+    //         phone_number: null,
+    //         email: "",
+    //         project_detail: "",
+    //       });
+    //       setCheck(0);
+    //     },
+    //     (error) => {
+    //       alert(error.text);
+    //     }
+    //   );
   };
   return (
-    <div className="relative min-h-[1200px] md:min-h-screen">
-      <div className="md:w-[1000px]  w-full min-h-screen">
-        <img src={connectImg.src} alt="" />
-      </div>
-      <div className="md:w-[730px] w-[330px] md:h-[879px] absolute md:top-10 top-60 md:right-0 right-6 bg-white md:rounded-tl-[100px] md:py-[86px] md:pl-[86px] ">
+    <div className="container mx-auto grid xl:grid-cols-2  my-4 gap-4  rounded-lg">
+      <div className="bg-white rounded-lg p-2">
         <h2 className="md:text-[46px] text-[28px] p-2 text-[#16205F] font-semibold">
           Kết Nối Với Chúng Tôi Ngay Hôm Nay!
         </h2>
-        <form onSubmit={handleSendMail}>
+        <form action="" onSubmit={handleSendMail}>
           <div className="md:grid md:grid-cols-2">
             <div className="flex flex-col p-2">
               <label
@@ -140,7 +136,6 @@ const Connect = () => {
               onChange={(e: any) =>
                 setForm({ ...form, project_detail: e.target.value })
               }
-              name="project_detail"
               id="project_detail"
               cols={10}
               rows={10}
@@ -152,7 +147,6 @@ const Connect = () => {
             <input
               type="checkbox"
               className="my-1"
-              name="check"
               value={check}
               onChange={() => {
                 if (check == 0) setCheck(1);
@@ -167,16 +161,25 @@ const Connect = () => {
           </div>
           <div className="p-2">
             <button
+              className="px-4 py-4 border rounded-md bg-[#F2CB00] text-white text-[16px] font-semibold w-full md:w-[40%] "
               type="submit"
-              className="px-4 py-4 border rounded-md bg-[#F2CB00] text-white text-[16px] font-semibold w-full md:w-[40%]"
             >
               Kết nối với chúng tôi
             </button>
           </div>
         </form>
       </div>
+      <div className="h-[700px] overflow-hidden rounded-xl ">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.708728125166!2d105.84734737583928!3d20.924035091366115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad8d042afdcd%3A0x2d397dd577f8fcf7!2zQ8O0bmcgVHkgVE5ISCBQaMOhdCBUcmnhu4NuIFBo4bqnbiBN4buBbSBWxINuIFZp4buHdA!5e0!3m2!1sfr!2s!4v1706150296145!5m2!1sfr!2s"
+          style={{ border: 0, width: "100%", height: "100%" }}
+          allowFullScreen={true}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </div>
   );
 };
 
-export default Connect;
+export default Form;

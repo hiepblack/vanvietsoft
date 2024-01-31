@@ -33,12 +33,12 @@ const Slide = ({ content }: Props) => {
       {content.map((item: any, index: number) => {
         return (
           <SwiperSlide key={index}>
-            <div className="flex bg-[#F9F9F9] px-2 py-4 rounded-[8px] gap-4 hover:shadow-md">
+            <div className=" bg-[#F9F9F9] px-2 py-4 rounded-[8px] gap-4 hover:shadow-md flex flex-col items-center justify-center min-h-[300px]">
               <div className="w-[80px] h-[80px] bg-[#FFF856] rounded-md flex items-center justify-center border">
                 <img src={item?.icon.src} alt="" />
               </div>
 
-              <div className="w-[80%]">
+              <div className="w-[100%] text-center">
                 <h3 className="text-[#16205F] text-[28px] font-semibold">
                   {item.title}
                 </h3>

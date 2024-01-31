@@ -3,6 +3,7 @@ import Connect from "@/components/Connect";
 import Header from "@/components/Header";
 import Link from "next/link";
 import data from "../../../data/data.json";
+import moment from "moment";
 
 const getOneProduct = (slug: string) => {
   const product = data.posts.find((p) => p.slug === slug);
@@ -48,7 +49,9 @@ export default function ProductDetailPage({ params }: any) {
             </p>
             <p className="text-[18px] font-semibold">
               Ngày đăng:{" "}
-              <span className="font-normal">{data?.published_at}</span>
+              <span className="font-normal">
+                {moment(data?.published_at).format("DD-MM-YYYY")}
+              </span>
             </p>
           </div>
         </div>
